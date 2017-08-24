@@ -104,7 +104,7 @@ a:link, a:hover, a:active, a:visited {
 }
 .navbar-github{
     padding-left: 35px;
-    background: url(/img/github.jpg) no-repeat 10px;
+    background: url(/img/github.png) no-repeat 10px;
     background-size: 36px;
 }
 
