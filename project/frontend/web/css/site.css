@@ -112,4 +112,9 @@ a:link, a:hover, a:active, a:visited {
     background: url(/img/sf.jpg) no-repeat 10px;
     background-size: 36px;
 }
+.navbar-aboutme{
+    padding-left: 50px !important;
+    background: url(/img/me.png) no-repeat 10px;
+    background-size: 36px;
+}
 
