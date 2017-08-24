@@ -43,7 +43,6 @@ if(!empty($comments)){ ?>
             </ul>
         </div>
     </div>
-}
 <?php }?>
 
 
