@@ -102,7 +102,7 @@ a:link, a:hover, a:active, a:visited {
     font-size: 0.9rem;
     color: #bbb;
 }
-.navbar-github a{
+.navbar-github{
     padding-left: 50px !important;
     background: url(/img/github.png) no-repeat 10px;
     background-size: 36px;
