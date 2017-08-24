@@ -28,7 +28,5 @@ echo Nav::widget([
     'options' => ['class' => 'navbar-nav navbar-right'],
     'items' => Yii::$app->params['nav']['items'],
 ]);
-
 NavBar::end();
-
 ?>
