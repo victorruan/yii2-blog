@@ -20,8 +20,13 @@ foreach($categories as $category){
     array_push($menuItems, ['label' => $category_name, 'url' => ['/site/category', 'id' => $category_id] ]);
 };
 echo Nav::widget([
-    'options' => ['class' => 'navbar-nav navbar-right'],
+    'options' => ['class' => 'navbar-nav navbar-left'],
     'items' => $menuItems,
+]);
+
+echo Nav::widget([
+    'options' => ['class' => 'navbar-nav navbar-right'],
+    'items' => Yii::$app->params['nav']['items'],
 ]);
 
 NavBar::end();
