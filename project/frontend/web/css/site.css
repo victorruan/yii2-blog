@@ -21,7 +21,7 @@ a:link, a:hover, a:active, a:visited {
 /* Nav */
 .ring-nav .navbar-brand {
     padding-left: 50px;
-    background: url('/img/logo.png') no-repeat 10px;
+    background: url('/img/logo.jpg') no-repeat 10px;
     background-size: 36px;
 }
 .ring-nav .container{
