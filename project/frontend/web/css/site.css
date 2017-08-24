@@ -107,4 +107,9 @@ a:link, a:hover, a:active, a:visited {
     background: url(/img/github.png) no-repeat 10px;
     background-size: 36px;
 }
+.navbar-segmentfault{
+    padding-left: 50px !important;
+    background: url(/img/sf.jpg) no-repeat 10px;
+    background-size: 36px;
+}
 
