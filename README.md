@@ -16,7 +16,8 @@ The minimum requirement by Yii is that your Web server supports PHP 5.4 .
 5. 确保服务器安装了git。
 
 【安装流程】
-1. 在您服务器的 Web 访问目录下运行 "git clone https://github.com/oonne/ringBlog.git"。git会把ringBlog的源码自动下载到您的目录下；
+1. 在您服务器的 Web 访问目录下运行 "git clone https://github.com/victorruan/yii2-blog.git"。
+git会把ringBlog的源码自动下载到您的目录下；
 2. 打开 project目录下运行"composer install"。composer将帮您安装所需的插件和依赖；
 3. 运行 init 对系统进行初始化，在这一步您可以选择作为开发模式还是生产模式；
 4. 打开project/common/config目录，编辑main-local.php文件，填入您的数据库信息。您还可以通过修改params.php和params-local.php进一步修改您博客的设置；
