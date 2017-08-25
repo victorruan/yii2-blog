@@ -4,7 +4,7 @@ use yii\bootstrap\ActiveForm;
 use backend\widgets\Alert;
 use yii\jui\DatePicker;
 use common\models\Category;
-use victorruan\ueditor\Ueditor;
+use victorruan\ueditor\UEditor;
 
 $this->title = $model->isNewRecord ? '添加' : $model->blog_title;
 ?>
@@ -31,7 +31,7 @@ $this->title = $model->isNewRecord ? '添加' : $model->blog_title;
     ]) ?>
     <?= $form->field($model, 'blog_category')->dropDownList(Category::getKeyValuePairs()) ?>
     <div class="form-group">
-        <?= Ueditor::widget([
+        <?= UEditor::widget([
 		    'model' => $model,
 		    'attribute' => 'blog_content',
 		    'config' => [
