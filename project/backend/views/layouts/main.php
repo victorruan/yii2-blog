@@ -5,13 +5,6 @@ use backend\assets\AppAsset;
 use \common\assets\SyntaxHighlighterAsset;
 
 AppAsset::register($this);
-SyntaxHighlighterAsset::register($this);
-$script = <<<UEDITOR
-SyntaxHighlighter.defaults['gutter'] = 'false';
-SyntaxHighlighter.all();
-UEDITOR;
-$this->registerJs($script);
-
 $route = Yii::$app->requestedAction->uniqueId;
 
 $menu = [
