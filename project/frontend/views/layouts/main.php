@@ -11,6 +11,11 @@ use oonne\scrollTop\ScrollTop;
 
 AppAsset::register($this);
 victorruan\ueditor\UEditorAsset::register($this);
+$script = <<<UEDITOR
+SyntaxHighlighter.defaults['gutter'] = 'false';
+SyntaxHighlighter.all();
+UEDITOR;
+$this->registerJs($script);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
