@@ -10,6 +10,7 @@ use common\widgets\Alert;
 use oonne\scrollTop\ScrollTop;
 
 AppAsset::register($this);
+victorruan\ueditor\UEditorAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
