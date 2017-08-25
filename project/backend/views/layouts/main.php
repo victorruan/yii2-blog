@@ -5,6 +5,7 @@ use backend\assets\AppAsset;
 use \common\assets\SyntaxHighlighterAsset;
 
 AppAsset::register($this);
+\victorruan\ueditor\UEditorAsset::register($this);
 $route = Yii::$app->requestedAction->uniqueId;
 
 $menu = [
