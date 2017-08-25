@@ -12,7 +12,7 @@
         "irc": "irc://irc.freenode.net/yii",
         "source": "https://github.com/yiisoft/yii2"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
@@ -28,7 +28,8 @@
         "crazydb/yii2-ueditor": "*",
         "oonne/yii2-sortable-grid-view": "*",
         "oonne/yii2-scroll-to-top": "*",
-        "yidashi/yii2-bootstrap-markdown": "*"
+        "yidashi/yii2-bootstrap-markdown": "*",
+        "victorruan/yii2-ueditor": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
@@ -36,7 +37,6 @@
         "yiisoft/yii2-faker": "*",
         "yiisoft/yii2-jui": "*",
         "yiisoft/yii2-imagine": "*",
-
         "codeception/codeception": "*",
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"

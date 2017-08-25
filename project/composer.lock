@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "fd928b27dfeccb27afabe3ac44a5370e",
+    "content-hash": "138bc8b873f8186a902467b65597c587",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1199,6 +1199,47 @@
                 "mailer"
             ],
             "time": "2017-05-20T06:20:27+00:00"
+        },
+        {
+            "name": "victorruan/yii2-ueditor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/victorruan/yii2-ueditor.git",
+                "reference": "8437e58ffe59522663b717af22552b25a65875c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/victorruan/yii2-ueditor/8437e58ffe59522663b717af22552b25a65875c0.zip",
+                "reference": "8437e58ffe59522663b717af22552b25a65875c0",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "victorruan\\ueditor\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "victorruan",
+                    "email": "250069802@qq.com"
+                }
+            ],
+            "description": "yii2使用百度编辑器上传",
+            "keywords": [
+                "ueditor",
+                "upload",
+                "yii"
+            ],
+            "time": "2017-08-25 06:24:14"
         },
         {
             "name": "yidashi/yii2-bootstrap-markdown",
@@ -4512,8 +4553,10 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "victorruan/yii2-ueditor": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
