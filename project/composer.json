@@ -28,7 +28,7 @@
         "oonne/yii2-sortable-grid-view": "*",
         "oonne/yii2-scroll-to-top": "*",
         "yidashi/yii2-bootstrap-markdown": "*",
-        "victorruan/yii2-ueditor": "dev-master"
+        "victorruan/yii2-ueditor": "^1.1"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
