@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "9f8ec4090831f8d2dda5d7051ad77ddb",
+    "content-hash": "c5437f443d1960a8b318b0128b69f42b",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -1162,16 +1162,16 @@
         },
         {
             "name": "victorruan/yii2-ueditor",
-            "version": "v1.1.0",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/victorruan/yii2-ueditor.git",
-                "reference": "cb9cc22ad64e8d44d7a37c3cdda8d3e8301d15fa"
+                "reference": "17111e6365d281ac2050c1bbb619d4065224aa13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://files.phpcomposer.com/files/victorruan/yii2-ueditor/cb9cc22ad64e8d44d7a37c3cdda8d3e8301d15fa.zip",
-                "reference": "cb9cc22ad64e8d44d7a37c3cdda8d3e8301d15fa",
+                "url": "https://files.phpcomposer.com/files/victorruan/yii2-ueditor/17111e6365d281ac2050c1bbb619d4065224aa13.zip",
+                "reference": "17111e6365d281ac2050c1bbb619d4065224aa13",
                 "shasum": ""
             },
             "require": {
@@ -1198,7 +1198,7 @@
                 "ueditor",
                 "yii2"
             ],
-            "time": "2017-08-25T07:10:56+00:00"
+            "time": "2017-08-25T08:13:04+00:00"
         },
         {
             "name": "yidashi/yii2-bootstrap-markdown",
