@@ -166,12 +166,18 @@ class Blog extends ActiveRecord
 
         return "<footer class=\"entry-footer\">
     <hr/>
+    <div class='row'>
+    <div class=\"col-md-6 cattegories\">
     <p>
         <span class=\"cat-links\"><em class=\"fa fa-folder-open\"></em> <a href=\"https://coolshell.cn/category/%e6%8a%80%e6%9c%af%e7%ae%a1%e7%90%86\" rel=\"category tag\">".$this->category->category_name."</a></span>
     </p>
+    </div>
+        <div class=\"col-md-6 tags\">
     <p>
         <span class=\"tags-links\"><em class=\"fa fa-tags\"></em> ".$tag_str."</span>
     </p>
+    </div>
+    </div>
 </footer>";
     }
 
