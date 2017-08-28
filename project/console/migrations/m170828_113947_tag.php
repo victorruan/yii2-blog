@@ -13,25 +13,26 @@ class m170828_113947_tag extends Migration
 
         $this->createTable('{{%tag}}', [
             'id' => $this->primaryKey(),
-            'name' => $this->integer()->notNull(),
+            'name' => $this->string()->notNull(),
             'status' => $this->integer(1)->notNull()->defaultValue(1),
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
         ], $tableOptions);
-        $this->createIndex(
-            'idx-reply-comment_id',
-            'reply',
-            'comment_id'
-        );
-        $this->createIndex(
-            'idx-reply-created_at_id',
-            'reply',
-            'created_at'
-        );
+
+        $this->createTable('{{%tag_blog}}', [
+            'id' => $this->primaryKey(),
+            'tag_id' => $this->integer()->notNull(),
+            'tag_name' => $this->string()->notNull(),
+            'blog_id' => $this->integer()->notNull(),
+            'blog_name'=> $this->string()->notNull(),
+            'created_at' => $this->integer()->notNull(),
+            'updated_at' => $this->integer()->notNull(),
+        ], $tableOptions);
     }
 
     public function down()
     {
         $this->dropTable('{{%tag}}');
+        $this->dropTable('{{%tag_blog}}');
     }
 }

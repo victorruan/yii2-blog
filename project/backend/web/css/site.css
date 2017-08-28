@@ -149,7 +149,7 @@ td .btn {
 
 /*博客*/
 .blog-content{
-    max-width: 720px;
+    /*max-width: 720px;*/
 }
 .blog-content ul, .blog-content ol {
     margin-left: 1.5rem;

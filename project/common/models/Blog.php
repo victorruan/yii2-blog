@@ -89,6 +89,39 @@ class Blog extends ActiveRecord
         return $this->hasOne(Category::className(), ['id' => 'blog_category']);
     }
 
+    public function fetchTags()
+    {
+        $tag_names = TagBlog::find()->where(['blog_id' => $this->getId()])->select(['tag_name'])->column();
+        $tag_names = implode(",",$tag_names);
+        return $tag_names;
+    }
+
+    public function saveTags($_tags){
+        $tag_names = explode(",",$_tags);
+        TagBlog::deleteAll(['not in','tag_name',$tag_names]);
+        $tags = [];
+        foreach ($tag_names as $tag_name){
+            $tag = Tag::find()->where(['name'=>$tag_name])->one();
+            if($tag===null){
+                $tag = new Tag();
+                $tag->name = $tag_name;
+                $tag->save();
+            }
+            $tags[$tag->name] = $tag;
+        }
+        foreach ($tag_names as $tag_name){
+            $tag_blog = TagBlog::find()->where(['tag_name'=>$tag_name,'blog_id'=>$this->getId()])->one();
+            if($tag_blog === null){
+                $tag_blog = new TagBlog();
+                $tag_blog->tag_id = $tags[$tag_name]['id'];
+                $tag_blog->tag_name = $tag_name;
+                $tag_blog->blog_id = $this->getId();
+                $tag_blog->blog_name = $this->blog_title;
+                $tag_blog->save();
+            }
+        }
+    }
+
     /**
      * Change status
      */

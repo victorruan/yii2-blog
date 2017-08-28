@@ -30,6 +30,14 @@ $this->title = $model->isNewRecord ? '添加' : $model->blog_title;
         'dateFormat' => 'yyyy-MM-dd'
     ]) ?>
     <?= $form->field($model, 'blog_category')->dropDownList(Category::getKeyValuePairs()) ?>
+
+    <div class="form-group">
+        <label class="control-label" for="blog-tags">标签</label>
+        <input type="text" id="blog-tags" class="form-control" name="tags" value="<?=$model->fetchTags()?>">
+
+        <p class="help-block help-block-error">(多个关键字之间用“,”分隔，最多不超过10个)</p>
+    </div>
+
     <div class="form-group">
         <?= UEditor::widget([
 		    'model' => $model,
