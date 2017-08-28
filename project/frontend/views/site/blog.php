@@ -14,7 +14,8 @@ $this->title = $blog->blog_title;
 	<span class="ring-blog-time"><?= Html::encode($blog->blog_date) ?></span>
 </p>
 <p>
-    <?= $blog->blog_content ?>    
+    <?= $blog->blog_content ?>
+    <?= $blog->getBlogFooter()?>
 </p>
 
 <?php

@@ -157,4 +157,22 @@ class Blog extends ActiveRecord
         return $list[$this->status] ?? null;
     }
 
+    public function getBlogFooter(){
+        $tags = TagBlog::find()->where(['blog_id' => $this->getId()])->select(['tag_name','tag_id'])->all();
+        $tag_str = "";
+        foreach ($tags as $tag){
+            $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>";
+        }
+
+        return "<footer class=\"entry-footer\">
+    <hr/>
+    <p>
+        <span class=\"cat-links\"><em class=\"fa fa-folder-open\"></em> <a href=\"https://coolshell.cn/category/%e6%8a%80%e6%9c%af%e7%ae%a1%e7%90%86\" rel=\"category tag\">".$this->category->category_name."</a></span>
+    </p>
+    <p>
+        <span class=\"tags-links\"><em class=\"fa fa-tags\"></em> ".$tag_str."</span>
+    </p>
+</footer>";
+    }
+
 }

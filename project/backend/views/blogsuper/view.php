@@ -9,5 +9,6 @@ $this->title = $model->blog_title;
 	<p>
 		<?php echo '分类：'.$model->category->category_name ?>	
 	</p>
-	<?php echo $model->blog_content ?>
+	<?=$model->blog_content?>
+    <?=$model->getBlogFooter()?>
 </div>

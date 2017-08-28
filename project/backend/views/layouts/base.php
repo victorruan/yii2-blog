@@ -20,6 +20,7 @@ BaseAsset::register($this);
     <meta name="description" content="">
     <meta name="baseurl" content="<?= Url::base() ?>">
     <meta name="author" content="JAY">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
