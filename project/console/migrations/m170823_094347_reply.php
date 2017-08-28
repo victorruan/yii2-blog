@@ -33,8 +33,6 @@ class m170823_094347_reply extends Migration
 
     public function down()
     {
-        echo "m160825_032215_reply cannot be reverted.\n";
-
-        return false;
+        $this->dropTable('{{%reply}}');
     }
 }
