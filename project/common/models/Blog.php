@@ -166,7 +166,7 @@ class Blog extends ActiveRecord
             if($i==count($tags)){
                 $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>";
             }else{
-                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>,";
+                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>，";
             }
         }
 
