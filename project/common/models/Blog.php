@@ -160,8 +160,14 @@ class Blog extends ActiveRecord
     public function getBlogFooter(){
         $tags = TagBlog::find()->where(['blog_id' => $this->getId()])->select(['tag_name','tag_id'])->all();
         $tag_str = "";
+        $i=0;
         foreach ($tags as $tag){
-            $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>";
+            $i++;
+            if($i==count($tags)){
+                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>";
+            }else{
+                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>,";
+            }
         }
 
         return "<footer class=\"entry-footer\">
