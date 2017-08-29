@@ -26,12 +26,9 @@ a:link, a:hover, a:active, a:visited {
     text-decoration: none;
 }
 .site-index{
-    background-color: white;
     padding: 0 0 15px 0;
 }
-.right-side{
-    background-color: white;
-}
+
 
 /* Nav */
 .ring-nav .navbar-brand {

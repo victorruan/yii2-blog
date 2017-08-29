@@ -19,6 +19,7 @@ victorruan\ueditor\UEditorAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/tagcloud.min.css" rel="stylesheet">
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
@@ -41,7 +42,10 @@ victorruan\ueditor\UEditorAsset::register($this);
 <?= $this->render('_foot') ?>
 <?= ScrollTop::widget() ?>
 <?php $this->endBody() ?>
-
+<script src="/js/tagcloud.min.js"></script>
+<script type="text/javascript">
+    tagcloud();
+</script>
 </body>
 </html>
 <?php $this->endPage() ?>
