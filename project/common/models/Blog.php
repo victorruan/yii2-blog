@@ -98,7 +98,7 @@ class Blog extends ActiveRecord
 
     public function saveTags($_tags){
         $tag_names = explode(",",$_tags);
-        TagBlog::deleteAll(['not in','tag_name',$tag_names]);
+        TagBlog::deleteAll(['and',['not in','tag_name',$tag_names],['blog_id'=>$this->getId()]]);
         $tags = [];
         foreach ($tag_names as $tag_name){
             $tag = Tag::find()->where(['name'=>$tag_name])->one();
