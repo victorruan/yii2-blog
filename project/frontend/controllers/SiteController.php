@@ -45,7 +45,8 @@ class SiteController extends Controller
     }
 
     public function actionCategory($id)
-    {    
+    {
+        $type = 'category';
         $query = Blog::find()->where([
             'status' => Blog::STATUS_ENABLED
         ])->andFilterWhere([
@@ -65,7 +66,8 @@ class SiteController extends Controller
         ]);
         
         return $this->render('index', [
-            'dataProvider' => $dataProvider
+            'dataProvider' => $dataProvider,
+            'type'=>$type
         ]);
     }
     public function actionTag($id)
