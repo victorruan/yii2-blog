@@ -3,6 +3,7 @@ namespace frontend\controllers;
 
 use common\models\Comment;
 use common\models\Reply;
+use common\models\TagBlog;
 use Yii;
 use yii\web\Controller;
 use yii\data\ActiveDataProvider;
@@ -65,6 +66,30 @@ class SiteController extends Controller
         
         return $this->render('index', [
             'dataProvider' => $dataProvider
+        ]);
+    }
+    public function actionTag($id)
+    {
+        $type = 'tag';
+        $query = TagBlog::find()->andFilterWhere([
+            'tag_id' => $id
+        ]);
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query,
+            'pagination' => [
+                'pageSize' => 10,
+            ],
+            'sort' => [
+                'defaultOrder' => [
+                    'blog_date' => SORT_DESC
+                ]
+            ]
+        ]);
+
+        return $this->render('index', [
+            'dataProvider' => $dataProvider,
+            'type'=>$type
         ]);
     }
 

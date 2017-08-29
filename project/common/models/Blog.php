@@ -164,9 +164,9 @@ class Blog extends ActiveRecord
         foreach ($tags as $tag){
             $i++;
             if($i==count($tags)){
-                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>";
+                $tag_str.="<a href=\"/site/tag?id=".$tag['tag_id']."\" rel=\"tag\">".$tag['tag_name']."</a>";
             }else{
-                $tag_str.="<a href=\"https://coolshell.cn/tag/programmer\" rel=\"tag\">".$tag['tag_name']."</a>，";
+                $tag_str.="<a href=\"/site/tag?id=".$tag['tag_id']."\" rel=\"tag\">".$tag['tag_name']."</a>，";
             }
         }
 

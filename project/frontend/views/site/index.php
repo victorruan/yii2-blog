@@ -14,7 +14,7 @@ $this->title = Yii::$app->params['blogName'];
             'pager' => [
             	'options' => ['class' => 'pagination ring-pager-center']
         	],
-            'itemView' => '_catelog',
+            'itemView' => ($type=='tag')?'_tag':'_catelog',
             'emptyText' => Html::tag('div', '找不到内容哦', ['class' => 'alert alert-danger']),
         ]) ?>
         <?php Pjax::end() ?>
