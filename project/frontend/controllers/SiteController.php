@@ -22,7 +22,8 @@ class SiteController extends Controller
      * @return mixed
      */
     public function actionIndex()
-    {    
+    {
+        $type = 'index';
         $query = Blog::find()->where([
             'status' => Blog::STATUS_ENABLED
         ]);
@@ -40,7 +41,8 @@ class SiteController extends Controller
         ]);
 
         return $this->render('index', [
-            'dataProvider' => $dataProvider
+            'dataProvider' => $dataProvider,
+            'type'=>$type
         ]);
     }
 
