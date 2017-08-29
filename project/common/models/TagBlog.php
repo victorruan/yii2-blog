@@ -59,4 +59,8 @@ class TagBlog extends ActiveRecord
             'updated_at' => 'Updated At',
         ];
     }
+
+    public function getBlog(){
+        return $this->hasOne(Blog::className(),['id'=>'blog_id']);
+    }
 }
