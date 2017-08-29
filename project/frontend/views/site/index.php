@@ -5,7 +5,7 @@ use yii\helpers\Html;
 
 $this->title = Yii::$app->params['blogName'];
 ?>
-<div class="site-index col-lg-9">
+<div class="site-index">
     <ul class="body-content">
         <?php Pjax::begin() ?>
         <?= ListView::widget([
@@ -20,3 +20,4 @@ $this->title = Yii::$app->params['blogName'];
         <?php Pjax::end() ?>
     </ul>
 </div>
+

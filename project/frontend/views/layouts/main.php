@@ -34,7 +34,9 @@ victorruan\ueditor\UEditorAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
-        <?= $content ?>
+        <div class="col-lg-9">
+            <?= $content ?>
+        </div>
         <?= $this->render('_right') ?>
     </div>
 </div>
@@ -42,10 +44,7 @@ victorruan\ueditor\UEditorAsset::register($this);
 <?= $this->render('_foot') ?>
 <?= ScrollTop::widget() ?>
 <?php $this->endBody() ?>
-<script src="/js/tagcloud.min.js"></script>
-<script type="text/javascript">
-    tagcloud();
-</script>
+
 </body>
 </html>
 <?php $this->endPage() ?>

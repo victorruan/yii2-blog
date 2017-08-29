@@ -12,3 +12,7 @@
         </div>
     </div>
 </div>
+<script src="/js/tagcloud.min.js"></script>
+<script type="text/javascript">
+    tagcloud();
+</script>
