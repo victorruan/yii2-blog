@@ -34,6 +34,7 @@ victorruan\ueditor\UEditorAsset::register($this);
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
+        <?= $this->render('_right') ?>
     </div>
 </div>
 

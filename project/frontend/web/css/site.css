@@ -9,6 +9,14 @@ body {
     height: 100%;
     font-size: 16px;
 }
+body {
+    background-color: #f6f6f6 !important;
+    padding-top: 45px;
+    position: relative;
+    padding-bottom: 8rem;
+    min-height: 100%;
+    font-family: MiscrosoftYaHei, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .table-center > thead > tr > th,
 .table-center > tbody > tr > td {
     text-align: center;
@@ -16,6 +24,13 @@ body {
 a:link, a:hover, a:active, a:visited {
     color: #4f4f4f;
     text-decoration: none;
+}
+.site-index{
+    background-color: white;
+    padding: 0 0 15px 0;
+}
+.right-side{
+    background-color: white;
 }
 
 /* Nav */
