@@ -175,7 +175,7 @@ class Blog extends ActiveRecord
     <div class='row'>
     <div class=\"col-md-6 cattegories\">
     <p>
-        <span class=\"cat-links\"><em class=\"fa fa-folder-open\"></em> <a href=\"https://coolshell.cn/category/%e6%8a%80%e6%9c%af%e7%ae%a1%e7%90%86\" rel=\"category tag\">".$this->category->category_name."</a></span>
+        <span class=\"cat-links\"><em class=\"fa fa-folder-open\"></em> <a href=\"/site/category?id=".$this->category->id."\" rel=\"category tag\">".$this->category->category_name."</a></span>
     </p>
     </div>
         <div class=\"col-md-6 tags\">
