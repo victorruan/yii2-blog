@@ -34,10 +34,10 @@ victorruan\ueditor\UEditorAsset::register($this);
             'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
         ]) ?>
         <?= Alert::widget() ?>
-        <div class="col-lg-9">
+<!--        <div class="col-lg-9">-->
             <?= $content ?>
-        </div>
-        <?= $this->render('_right') ?>
+<!--        </div>-->
+        <?php //echo $this->render('_right') ?>
     </div>
 </div>
 
