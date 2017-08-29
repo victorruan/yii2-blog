@@ -83,11 +83,6 @@ class SiteController extends Controller
             'query' => $query,
             'pagination' => [
                 'pageSize' => 10,
-            ],
-            'sort' => [
-                'defaultOrder' => [
-                    'blog_date' => SORT_DESC
-                ]
             ]
         ]);
 
