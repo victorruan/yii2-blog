@@ -204,22 +204,26 @@
 
     <hr />
 
-    <div id="update-log">
-        <h3>最近的文章动态</h3>
-        <div id="updateLogContent" class="updateLogContent"></div>
-        <h4><button class="btn btn-primary btnLoadLogs" type="button" onclick="loadUpdateLog(logUrl, true, this)" id="btnShowAllLogs">显示全部动态</button></h4>
-    </div>
-
-    <div id="commentBox" class="cloud-tie-wrapper"></div>
-
-    <hr />
-    <div id="friendsLinks" class="friendsLinks">
-        <h4>友情博客：</h4>
-        <ul>
-            <li><a href="http://www.wyqblog.com">蝶舞恋天涯</a></li>
-        </ul>
-
-    </div>
+    <!-- UY BEGIN -->
+    <div id="uyan_frame"></div>
+    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143006"></script>
+    <!-- UY END -->
+<!--    <div id="update-log">-->
+<!--        <h3>最近的文章动态</h3>-->
+<!--        <div id="updateLogContent" class="updateLogContent"></div>-->
+<!--        <h4><button class="btn btn-primary btnLoadLogs" type="button" onclick="loadUpdateLog(logUrl, true, this)" id="btnShowAllLogs">显示全部动态</button></h4>-->
+<!--    </div>-->
+<!---->
+<!--    <div id="commentBox" class="cloud-tie-wrapper"></div>-->
+<!---->
+<!--    <hr />-->
+<!--    <div id="friendsLinks" class="friendsLinks">-->
+<!--        <h4>友情博客：</h4>-->
+<!--        <ul>-->
+<!--            <li><a href="http://www.wyqblog.com">蝶舞恋天涯</a></li>-->
+<!--        </ul>-->
+<!---->
+<!--    </div>-->
 </div>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script><script type="text/javascript">
     var logUrl = '/it/site/log';
@@ -232,10 +236,6 @@
         loadUpdateLog(logUrl, false);
     });
 </script>
-<script type="text/javascript">
-    $(function(){
-        showComment('野生程序员的成长之路', 'f62a034c350be8f3ff636d6787c2d0c8');
-    });
-</script>
+
 </body>
 </html>
