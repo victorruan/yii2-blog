@@ -23,27 +23,24 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $type = 'index';
-        $query = Blog::find()->where([
-            'status' => Blog::STATUS_ENABLED
-        ]);
+//        $type = 'index';
+//        $query = Blog::find()->where([
+//            'status' => Blog::STATUS_ENABLED
+//        ]);
 
-        $dataProvider = new ActiveDataProvider([
-            'query' => $query,
-            'pagination' => [
-                'pageSize' => 10,
-            ],
-            'sort' => [
-                'defaultOrder' => [
-                    'blog_date' => SORT_DESC
-                ]
-            ]
-        ]);
+//        $dataProvider = new ActiveDataProvider([
+//            'query' => $query,
+//            'pagination' => [
+//                'pageSize' => 10,
+//            ],
+//            'sort' => [
+//                'defaultOrder' => [
+//                    'blog_date' => SORT_DESC
+//                ]
+//            ]
+//        ]);
 
-        return $this->render('index', [
-            'dataProvider' => $dataProvider,
-            'type'=>$type
-        ]);
+        return $this->renderPartial('show');
     }
 
     public function actionCategory($id)
