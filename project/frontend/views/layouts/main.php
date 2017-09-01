@@ -26,10 +26,6 @@ victorruan\ueditor\UEditorAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143006"></script>
-<!-- UY END -->
 <?= $this->render('_nav') ?>
 
 <div class="wrap">
@@ -44,7 +40,10 @@ victorruan\ueditor\UEditorAsset::register($this);
         <?php //echo $this->render('_right') ?>
     </div>
 </div>
-
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143006"></script>
+<!-- UY END -->
 <?= $this->render('_foot') ?>
 <?= ScrollTop::widget() ?>
 <?php $this->endBody() ?>
