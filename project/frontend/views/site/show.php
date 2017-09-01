@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
     <title>野生程序员的成长之路</title>
-    <link href="/mylife/bootstrap-3.3.2/css/bootstrap.css" rel="stylesheet">
-    <script src="/js/jquery-1.11.1.min.js"></script><style type="text/css">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script><style type="text/css">
         .container{padding-bottom:40px;}
         .jumbotron p{font-size:14px;}
         body{padding:7px;}
@@ -221,7 +221,7 @@
 
     </div>
 </div>
-<script src="/mylife/bootstrap-3.3.2/js/bootstrap.min.js"></script><script type="text/javascript">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script><script type="text/javascript">
     var logUrl = '/it/site/log';
     var disabledTip = '敬请期待~你也可以先自行上网搜索资料学习哦';
     $(function(){
