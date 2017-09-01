@@ -3,7 +3,7 @@
 namespace backend\controllers;
 
 use yii;
-use crazydb\ueditor\UEditorController;
+use victorruan\ueditor\UEditorController;
 
 /**
  * UEditor controller
