@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
-    <title>野生程序员的成长之路</title>
+    <title>小小佳的博客</title>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script><style type="text/css">
         .container{padding-bottom:40px;}
@@ -26,16 +26,23 @@
 <body>
 <div class="container">
     <header class="jumbotron">
-        <h2 class="text-center">野生程序员的成长之路</h2>
+        <h2 class="text-center">小小佳的博客</h2>
         <div>
-            <p>我是一个初中学历自学过来的野生程序员，2012年转行做IT。下面都是08年至今买书看网帖和视频以及工作积累等方式掌握到的知识，有的学得不深，而并不是我学得有多么深奥了才写下文章分享给大家</p>
-            <p>反正也可以当作笔记自查，与朋友交流时直接给出网址作为个人观点免得再重复打字。对于大牛来说，我这些知识都只是皮毛</p>
-            <p>主要都是针对工作中用到的来讲，用不到的就先略微提提或者暗示你去自己搜索资料研究就好了</p>
-            <p>写博客的感觉不错！建议看看 <a href="/it/leaning-share/guide-write-blog.html" target="_blank">写博客的好处</a></p>
-            <p>附个人创办的开源项目，还在慢慢挤时间开发中：<a href="https://github.com/kk8686/xoa" target="_blank">小OA</a>（该项目能给到你的参考点：前后分离开发的实现、gulp构建环境的应用、Yii2框架的应用Demo、Codeception测试框架的运用、前端自动同步后端的字典集）</p>
-            <p class="links">
-                <a href="#update-log">文章更新记录</a>
-            </p>
+            <p>Hi，我是 小小佳</p>
+            <p>一个活泼开朗，乐观大方，积极性高，乐与沟通，对新技术充满好奇的phper 最喜欢的框架是Yii2</p>
+            <p>擅长后端，熟悉微信公众号及小程序开发，熟悉微信、支付宝及第三方支付平台的支付接入,熟悉chrome插件开发等</p>
+            <p>擅长cms网站搭建等</p>
+            <p>喜欢简约，打算走向全栈的不归路 ~</p>
+            <p>希望能为互联网贡献一份力量</p>
+            <p>目前我希望得到一份全职的远程办公机会。渴望小城市的生活。</p>
+<!--            <p>我是一个初中学历自学过来的野生程序员，2012年转行做IT。下面都是08年至今买书看网帖和视频以及工作积累等方式掌握到的知识，有的学得不深，而并不是我学得有多么深奥了才写下文章分享给大家</p>-->
+<!--            <p>反正也可以当作笔记自查，与朋友交流时直接给出网址作为个人观点免得再重复打字。对于大牛来说，我这些知识都只是皮毛</p>-->
+<!--            <p>主要都是针对工作中用到的来讲，用不到的就先略微提提或者暗示你去自己搜索资料研究就好了</p>-->
+<!--            <p>写博客的感觉不错！建议看看 <a href="/it/leaning-share/guide-write-blog.html" target="_blank">写博客的好处</a></p>-->
+<!--            <p>附个人创办的开源项目，还在慢慢挤时间开发中：<a href="https://github.com/kk8686/xoa" target="_blank">小OA</a>（该项目能给到你的参考点：前后分离开发的实现、gulp构建环境的应用、Yii2框架的应用Demo、Codeception测试框架的运用、前端自动同步后端的字典集）</p>-->
+<!--            <p class="links">-->
+<!--                <a href="#update-log">文章更新记录</a>-->
+<!--            </p>-->
         </div>
     </header>
 
