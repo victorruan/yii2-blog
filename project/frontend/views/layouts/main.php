@@ -38,12 +38,13 @@ victorruan\ueditor\UEditorAsset::register($this);
             <?= $content ?>
 <!--        </div>-->
         <?php //echo $this->render('_right') ?>
+        <!-- UY BEGIN -->
+        <div id="uyan_frame"></div>
+        <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143006"></script>
+        <!-- UY END -->
     </div>
 </div>
-<!-- UY BEGIN -->
-<div id="uyan_frame"></div>
-<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2143006"></script>
-<!-- UY END -->
+
 <?= $this->render('_foot') ?>
 <?= ScrollTop::widget() ?>
 <?php $this->endBody() ?>
