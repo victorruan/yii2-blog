@@ -21,7 +21,7 @@
         .friendsLinks li{float:left; margin-right:15px;}
         .btnLoadLogs{margin-left:42px;}
     </style>
-    <script src="/it/assets/js/help.js?v=1503654891"></script>
+<!--    <script src="/it/assets/js/help.js?v=1503654891"></script>-->
 </head>
 <body>
 <div class="container">
@@ -49,82 +49,82 @@
     <div class="row testList" id="testList">
 
         <div class="col-xs-6 col-md-3">
-            <a href="/it/html-base/guide-README.html"  target="_blank"class="enabled">网页制作常用基础</a>
+            <a href="http://www.kkh86.com/it/html-base/guide-README.html"  target="_blank"class="enabled">网页制作常用基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/js-base/guide-README.html"  target="_blank"class="enabled">JavaScript常用基础</a>
+            <a href="http://www.kkh86.com/it/js-base/guide-README.html"  target="_blank"class="enabled">JavaScript常用基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/php-base/guide-README.html"  target="_blank"class="enabled">PHP基础</a>
+            <a href="http://www.kkh86.com/it/php-base/guide-README.html"  target="_blank"class="enabled">PHP基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">Web服务器与HTTP协议</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/mysql-base/guide-README.html"  target="_blank"class="enabled">MySql数据库常用基础</a>
+            <a href="http://www.kkh86.com/it/mysql-base/guide-README.html"  target="_blank"class="enabled">MySql数据库常用基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/jquery/guide-README.html"  target="_blank"class="enabled">jQuery基础</a>
+            <a href="http://www.kkh86.com/it/jquery/guide-README.html"  target="_blank"class="enabled">jQuery基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/thinkphp/guide-index.html"  target="_blank"class="enabled">ThinkPHP框架</a>
+            <a href="http://www.kkh86.com/it/thinkphp/guide-index.html"  target="_blank"class="enabled">ThinkPHP框架</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">移动端Web开发</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/first-job/guide-README.html"  target="_blank"class="enabled">是时候去找你的第一份工作了</a>
+            <a href="http://www.kkh86.com/it/first-job/guide-README.html"  target="_blank"class="enabled">是时候去找你的第一份工作了</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/svn/guide-README.html"  target="_blank"class="enabled">SVN</a>
+            <a href="http://www.kkh86.com/it/svn/guide-README.html"  target="_blank"class="enabled">SVN</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/php-adv/guide-README.html"  target="_blank"class="enabled">PHP进阶</a>
+            <a href="http://www.kkh86.com/it/php-adv/guide-README.html"  target="_blank"class="enabled">PHP进阶</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/js-adv/guide-README.html"  target="_blank"class="enabled">JS+JQ进阶</a>
+            <a href="http://www.kkh86.com/it/js-adv/guide-README.html"  target="_blank"class="enabled">JS+JQ进阶</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/regexp/guide-README.html"  target="_blank"class="enabled">正则表达式</a>
+            <a href="http://www.kkh86.com/it/regexp/guide-README.html"  target="_blank"class="enabled">正则表达式</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">HTTP协议常识</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/mysql-adv/guide-README.html"  target="_blank"class="enabled">MySql进阶</a>
+            <a href="http://www.kkh86.com/it/mysql-adv/guide-README.html"  target="_blank"class="enabled">MySql进阶</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">Linux系统基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/svn-server/guide-README.html"  target="_blank"class="enabled">SVN服务器管理</a>
+            <a href="http://www.kkh86.com/it/svn-server/guide-README.html"  target="_blank"class="enabled">SVN服务器管理</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/codeception/guide-README.html"  target="_blank"class="enabled">PHP-Codeception测试开发</a>
+            <a href="http://www.kkh86.com/it/codeception/guide-README.html"  target="_blank"class="enabled">PHP-Codeception测试开发</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/web-debug/guide-README.html"  target="_blank"class="enabled">Web开发调试方案分享</a>
+            <a href="http://www.kkh86.com/it/web-debug/guide-README.html"  target="_blank"class="enabled">Web开发调试方案分享</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/expr/guide-README.html"  target="_blank"class="enabled">其它经验分享</a>
+            <a href="http://www.kkh86.com/it/expr/guide-README.html"  target="_blank"class="enabled">其它经验分享</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/code-standard/guide-README.html"  target="_blank"class="enabled">编码规范与PSR标准</a>
+            <a href="http://www.kkh86.com/it/code-standard/guide-README.html"  target="_blank"class="enabled">编码规范与PSR标准</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/programing-expr/guide-README.html"  target="_blank"class="enabled">程序设计心得分享</a>
+            <a href="http://www.kkh86.com/it/programing-expr/guide-README.html"  target="_blank"class="enabled">程序设计心得分享</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/secure/guide-README.html"  target="_blank"class="enabled">安全</a>
+            <a href="http://www.kkh86.com/it/secure/guide-README.html"  target="_blank"class="enabled">安全</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/composer/guide-README.html"  target="_blank"class="enabled">Composer</a>
+            <a href="http://www.kkh86.com/it/composer/guide-README.html"  target="_blank"class="enabled">Composer</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/yii2/guide-README.html"  target="_blank"class="enabled">PHP-Yii2框架基础入门</a>
+            <a href="http://www.kkh86.com/it/yii2/guide-README.html"  target="_blank"class="enabled">PHP-Yii2框架基础入门</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/yii2-adv/guide-README.html"  target="_blank"class="enabled">Yii2经验分享</a>
+            <a href="http://www.kkh86.com/it/yii2-adv/guide-README.html"  target="_blank"class="enabled">Yii2经验分享</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">聊聊面向对象与MVC模式</a>
@@ -133,22 +133,22 @@
             <a href="javascript:alert(disabledTip);" class="disabled">Redis</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/reprint/guide-README.html"  target="_blank"class="enabled">转载收藏</a>
+            <a href="http://www.kkh86.com/it/reprint/guide-README.html"  target="_blank"class="enabled">转载收藏</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">SOAP与REST接口设计</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/apache2.4/guide-README.html"  target="_blank"class="enabled">Apache2.4</a>
+            <a href="http://www.kkh86.com/it/apache2.4/guide-README.html"  target="_blank"class="enabled">Apache2.4</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">Nginx</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/jenkins/guide-README.html"  target="_blank"class="enabled">Jenkins持续集成</a>
+            <a href="http://www.kkh86.com/it/jenkins/guide-README.html"  target="_blank"class="enabled">Jenkins持续集成</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/nodejs/guide-README.html"  target="_blank"class="enabled">Node.js</a>
+            <a href="http://www.kkh86.com/it/nodejs/guide-README.html"  target="_blank"class="enabled">Node.js</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">C语言基础</a>
@@ -163,25 +163,25 @@
             <a href="javascript:alert(disabledTip);" class="disabled">Java + Android笔记</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/gulp-build-dev-env/guide-README.html"  target="_blank"class="enabled">用gulp搭建前后分离的开发环境</a>
+            <a href="http://www.kkh86.com/it/gulp-build-dev-env/guide-README.html"  target="_blank"class="enabled">用gulp搭建前后分离的开发环境</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/team-manage/guide-README.html"  target="_blank"class="enabled">当管理者的感受</a>
+            <a href="http://www.kkh86.com/it/team-manage/guide-README.html"  target="_blank"class="enabled">当管理者的感受</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">我们必须注重自动化</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/python/guide-index.html"  target="_blank"class="enabled">Python</a>
+            <a href="http://www.kkh86.com/it/python/guide-index.html"  target="_blank"class="enabled">Python</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/chrome-extension/guide-README.html"  target="_blank"class="enabled">Chrome插件开发</a>
+            <a href="http://www.kkh86.com/it/chrome-extension/guide-README.html"  target="_blank"class="enabled">Chrome插件开发</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">Git</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/markdown/guide-README.html"  target="_blank"class="enabled">用Markdown写文档</a>
+            <a href="http://www.kkh86.com/it/markdown/guide-README.html"  target="_blank"class="enabled">用Markdown写文档</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="javascript:alert(disabledTip);" class="disabled">Linux系统进阶</a>
@@ -199,13 +199,13 @@
             <a href="javascript:alert(disabledTip);" class="disabled">PHP-Yaf框架</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/leaning-share/guide-README.html"  target="_blank"class="enabled">自学经验分享</a>
+            <a href="http://www.kkh86.com/it/leaning-share/guide-README.html"  target="_blank"class="enabled">自学经验分享</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/product/guide-README.html"  target="_blank"class="enabled">产品观念</a>
+            <a href="http://www.kkh86.com/it/product/guide-README.html"  target="_blank"class="enabled">产品观念</a>
         </div>
         <div class="col-xs-6 col-md-3">
-            <a href="/it/oth/guide-README.html"  target="_blank"class="enabled">杂谈</a>
+            <a href="http://www.kkh86.com/it/oth/guide-README.html"  target="_blank"class="enabled">杂谈</a>
         </div>
     </div>
 
@@ -233,7 +233,7 @@
 <!--    </div>-->
 </div>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script><script type="text/javascript">
-    var logUrl = '/it/site/log';
+    var logUrl = 'http://www.kkh86.com/it/site/log';
     var disabledTip = '敬请期待~你也可以先自行上网搜索资料学习哦';
     $(function(){
         $('#testList div').each(function(i){
