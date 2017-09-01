@@ -18,6 +18,15 @@ $this->title = $blog->blog_title;
     <?= $blog->getBlogFooter()?>
 </p>
 
+
+
+
+
+
+<?php
+/*
+ *
+ *
 <?php
 if(!empty($comments)){ ?>
     <div class="panel panel-default">
@@ -45,8 +54,6 @@ if(!empty($comments)){ ?>
         </div>
     </div>
 <?php }?>
-
-
 <?php   //评论表单 ?>
 <?= Html::beginForm(['comment/add', 'id' => $blog->id], 'post') ?>
     <h4>输入评论内容</h4>
@@ -55,8 +62,6 @@ if(!empty($comments)){ ?>
 <?= Html::submitButton('提交', ['class' => 'btn btn-primary']) ?>
 
 <?= Html::endForm() ?>
-
-
 <?php   //回复表单 ?>
 <div class="hidden" id="reply" style="margin-left:30px;">
     <br>
@@ -68,13 +73,16 @@ if(!empty($comments)){ ?>
 
 <?= Html::endForm() ?>
 </div>
+ * */
+?>
+
 
 
 <script type="text/javascript">
-    function reply(reply,comment_id){           //显示回复内容输入框，参数为该元素，和评论id
-        $('#comment_id').val(comment_id);  //修该表单  comment_id 的值为该评论的 id
-        $('#reply').removeClass('hidden');   //显示回复输入框
-        $(reply).after($('#reply'));  //将回复框移到该元素之后
-
-    }
+//    function reply(reply,comment_id){           //显示回复内容输入框，参数为该元素，和评论id
+//        $('#comment_id').val(comment_id);  //修该表单  comment_id 的值为该评论的 id
+//        $('#reply').removeClass('hidden');   //显示回复输入框
+//        $(reply).after($('#reply'));  //将回复框移到该元素之后
+//
+//    }
 </script>
