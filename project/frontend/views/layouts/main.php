@@ -26,6 +26,10 @@ victorruan\ueditor\UEditorAsset::register($this);
 </head>
 <body>
 <?php $this->beginBody() ?>
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js"></script>
+<!-- UY END -->
 <?= $this->render('_nav') ?>
 
 <div class="wrap">
