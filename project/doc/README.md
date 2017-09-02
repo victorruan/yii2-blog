@@ -20,4 +20,5 @@ FecShop 文档说明
 Fecshop配置
 -----------
 *  [Fecshop 配置-配置结构](fecshop-init-config-construction.md)
-*  [Fecshop 配置-Yii2配置](fecshop-init-config-yii2.md)*  [Fecshop 配置-fecshop配置](fecshop-init-config-advanced.md)
+*  [Fecshop 配置-Yii2配置](fecshop-init-config-yii2.md)
+*  [Fecshop 配置-fecshop配置](fecshop-init-config-advanced.md)
