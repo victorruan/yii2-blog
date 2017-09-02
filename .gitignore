@@ -1,2 +1,5 @@
 .idea
 build.sh
+composer.lock
+composer.json
+vendor
