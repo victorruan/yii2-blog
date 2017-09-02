@@ -207,6 +207,9 @@
         <div class="col-xs-6 col-md-3">
             <a href="http://www.kkh86.com/it/oth/guide-README.html"  target="_blank"class="enabled">杂谈</a>
         </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="http://blog.victorruan.cn/site/category?id=11"  target="_blank"class="enabled">心灵鸡汤</a>
+        </div>
     </div>
 
     <hr />
@@ -233,15 +236,16 @@
 <!--    </div>-->
 </div>
 <script src="https://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script><script type="text/javascript">
-    var logUrl = 'http://www.kkh86.com/it/site/log';
+//    var logUrl = 'http://www.kkh86.com/it/site/log';
     var disabledTip = '敬请期待~你也可以先自行上网搜索资料学习哦';
-    $(function(){
-        $('#testList div').each(function(i){
-            $(this).prepend((i + 1) + '、');
-        });
-
-        loadUpdateLog(logUrl, false);
-    });
+//    $(function(){
+//        $('#testList div').each(function(i){
+//
+//  $(this).prepend((i + 1) + '、');
+//        });
+//
+////        loadUpdateLog(logUrl, false);
+//    });
 </script>
 
 </body>
