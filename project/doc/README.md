@@ -1,8 +1,5 @@
-FecShop 文档说明
+深入理解Yii2.0
 ============
-
-版权所有。
-2016 (c) FecShop Software LLC。
 
 目前进度
 ----
