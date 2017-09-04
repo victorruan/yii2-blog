@@ -43,7 +43,7 @@ class SiteController extends Controller
         return $this->renderPartial('show');
     }
 
-    public function actioncategory($id)
+    public function actionCategory($id)
     {
         $type = 'category';
         $query = Blog::find()->where([
