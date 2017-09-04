@@ -49,7 +49,7 @@
     <div class="row testList" id="testList">
 
         <div class="col-xs-6 col-md-3">
-            <a href="http://blog.victorruan.cn/site/category?id=12"  target="_blank"class="enabled">深入理解Yii2</a>
+            <a href="http://www.digpage.com/"  target="_blank"class="enabled">深入理解Yii2</a>
         </div>
         <div class="col-xs-6 col-md-3">
             <a href="http://www.kkh86.com/it/html-base/guide-README.html"  target="_blank"class="enabled">网页制作常用基础</a>
