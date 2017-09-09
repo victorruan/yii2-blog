@@ -49,6 +49,9 @@
     <div class="row testList" id="testList">
 
         <div class="col-xs-6 col-md-3">
+            <a href="http://www.docker.org.cn/book/docker/what-is-docker-16.html"  target="_blank"class="enabled">docker入门教程</a>
+        </div>
+        <div class="col-xs-6 col-md-3">
             <a href="http://www.digpage.com/"  target="_blank"class="enabled">深入理解Yii2</a>
         </div>
         <div class="col-xs-6 col-md-3">
