@@ -1,0 +1,17 @@
+[2017-09-13 13:01:31]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:9501
+[2017-09-13 13:01:50]	INFO	Event: client[#1@0] connect
+[2017-09-13 13:01:50]	INFO	Event: client[#2@0] connect
+[2017-09-13 13:02:05]	INFO	Event: client[#2@0] close
+[2017-09-13 13:02:27]	INFO	Event: client[#3@0] connect
+[2017-09-13 13:02:27]	INFO	Event: client[#4@0] connect
+[2017-09-13 13:02:40]	INFO	Event: client[#3@0] close
+[2017-09-13 13:02:40]	INFO	Event: client[#4@0] close
+[2017-09-13 13:07:12]	INFO	Event: client[#5@0] connect
+[2017-09-13 13:07:12]	INFO	Event: client[#6@0] connect
+[2017-09-13 13:07:25]	INFO	Event: client[#5@0] close
+[2017-09-13 13:07:25]	INFO	Event: client[#6@0] close
+[2017-09-13 21:07:38 $49625.0]	NOTICE	Server is reloading now.
+[2017-09-13 13:07:38]	INFO	SwooleFramework[#0]. running. on 0.0.0.0:9501
+[2017-09-13 13:07:45]	INFO	Event: client[#7@0] connect
+[2017-09-13 13:12:50]	INFO	Event: client[#7@0] close
+[2017-09-13 13:12:50]	INFO	Event: client[#1@0] close

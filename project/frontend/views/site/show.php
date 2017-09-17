@@ -55,6 +55,13 @@
             <a href="http://www.digpage.com/"  target="_blank"class="enabled">深入理解Yii2</a>
         </div>
         <div class="col-xs-6 col-md-3">
+            <a href="https://www.nginx.com/resources/admin-guide/"  target="_blank"class="enabled">NGINX[AdminGuide]</a>
+        </div>
+
+
+
+
+        <div class="col-xs-6 col-md-3">
             <a href="http://www.kkh86.com/it/html-base/guide-README.html"  target="_blank"class="enabled">网页制作常用基础</a>
         </div>
         <div class="col-xs-6 col-md-3">
