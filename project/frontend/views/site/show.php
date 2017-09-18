@@ -57,6 +57,9 @@
         <div class="col-xs-6 col-md-3">
             <a href="https://www.nginx.com/resources/admin-guide/"  target="_blank"class="enabled">NGINX[AdminGuide]</a>
         </div>
+        <div class="col-xs-6 col-md-3">
+            <a href="http://www.nginx.cn/doc/index.html"  target="_blank"class="enabled">nginx中文文档</a>
+        </div>
 
 
 
